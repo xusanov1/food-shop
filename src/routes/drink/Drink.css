@@ -1,0 +1,80 @@
+.drink-cards{
+    display: flex;
+    margin-top: -110px;
+    margin-left: 130px;
+    gap: 40px;
+    z-index: 10;
+}
+
+.drink-card{
+    width: 246px;
+    border-radius: 10px;
+    background-color: rgba(225, 213, 213, 0.177);
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+.drink-card:hover{
+    border: 1px solid rgba(62, 52, 52, 0.301);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.6s;
+}
+
+.drink-card-img{
+   margin-top: -50px;
+   margin-left: 20px;
+   width: 190px;
+   height: 200px;
+   object-fit: contain;
+}
+
+.drink-card-h2{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.drink-card-p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.drink-card-star{
+    width: 150px;
+    margin-left: 10px;
+}
+
+span{
+    color: gold;
+    font-size: 24px;
+}
+
+.drink-card-price{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.drink-price{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.drink-btn{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    outline: none;
+    background-color: #000;
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.drink-btn:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.6s;
+}
